@@ -11,7 +11,21 @@
 
 ###
 
-<p align="left">✨ Creating bugs since ...<br>📚 I'm currently learning ...<br>🎯 Goals: ...<br>🎲 Fun fact: ...</p>
+<p align="left">Solution YOLOv8 detects and localizes objects in real time using bounding boxes.​<br>
+
+CLIP performs zero-shot classification to identify the object from a set of candidate labels.​
+
+KMeans clustering detects the object’s dominant color.​
+
+OpenCV analyzes the object's shape through contour detection.​
+
+An estimated weight is retrieved from a predefined lookup table based on the identified object.​
+
+gTTS (Google Text-to-Speech) converts the object description into an audio output.​
+
+A Gradio web interface allows users to upload or capture images and view both text and audio descriptions.​
+
+This integrated pipeline supports real-time, multimodal object description, making it suitable for applications in assistive technology, robotics, and interactive AI systems​</p>
 
 ###
 
