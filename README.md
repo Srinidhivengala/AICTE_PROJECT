@@ -7,25 +7,79 @@
 ###
 
 <h2 align="left">About My Project</h2>
-<p>In many real-world scenarios, identifying objects with accurate semantic detail such as color, shape, category, and weight remains challenging for AI systems. Existing object detection systems lack multi-dimensional descriptive capabilities, making them unsuitable for visually impaired users or complex robotics applications..​</p>
+# Universal Object Analyzer
 
-###
+## Overview
 
-<p align="left">Solution:YOLOv8 detects and localizes objects in real time using bounding boxes.​<br>
+In many real-world scenarios, identifying objects with **accurate semantic detail**—such as **color, shape, category, and weight**—remains a challenge for AI systems.  
+Existing object detection solutions typically focus on object localization and classification but lack **multi-dimensional descriptive capabilities**. This limits their usability in domains like **assistive technology** for visually impaired users, **robotics**, and **context-aware AI applications**.
 
-CLIP performs zero-shot classification to identify the object from a set of candidate labels.​
+The **Universal Object Analyzer** addresses this gap by integrating multiple AI components into a single, real-time, multimodal object analysis pipeline.
 
-KMeans clustering detects the object’s dominant color.​
+---
 
-OpenCV analyzes the object's shape through contour detection.​
+## Solution Pipeline
 
-An estimated weight is retrieved from a predefined lookup table based on the identified object.​
+- 🟢 **YOLOv8**  
+  Detects and localizes objects in real time using bounding boxes.
 
-gTTS (Google Text-to-Speech) converts the object description into an audio output.​
+- 🟣 **CLIP (Contrastive Language-Image Pretraining)**  
+  Performs zero-shot classification to identify objects from a set of candidate labels.
 
-A Gradio web interface allows users to upload or capture images and view both text and audio descriptions.​
+- 🟡 **KMeans Clustering**  
+  Detects the object’s **dominant color**.
 
-This integrated pipeline supports real-time, multimodal object description, making it suitable for applications in assistive technology, robotics, and interactive AI systems​</p>
+- 🟠 **OpenCV**  
+  Analyzes the object’s **geometric shape** through contour detection.
+
+- 🔵 **Estimated Weight Lookup**  
+  Retrieves an estimated weight from a predefined lookup table based on the identified object.
+
+- 🔊 **gTTS (Google Text-to-Speech)**  
+  Converts the object description into **audio output**.
+
+- 🌐 **Gradio Web Interface**  
+  Provides an intuitive web-based interface allowing users to upload or capture images and view both **text and audio descriptions** of detected objects.
+
+---
+
+## Features
+
+✅ Real-time object detection and localization  
+✅ Zero-shot object classification  
+✅ Dominant color extraction  
+✅ Geometric shape analysis  
+✅ Estimated object weight  
+✅ Audio output for accessibility  
+✅ User-friendly web interface (local or cloud deployment)  
+
+---
+
+## Applications
+
+- **Assistive Technology** for visually impaired users  
+- **Robotics** and human-robot interaction  
+- **Smart devices** and home automation  
+- **Interactive AI agents**  
+- **Educational tools**  
+
+---
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/universal-object-analyzer.git
+cd universal-object-analyzer
+
+# Create a virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
 
 ###
 
