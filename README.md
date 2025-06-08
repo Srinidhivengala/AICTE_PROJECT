@@ -45,13 +45,19 @@ The **Universal Object Analyzer** addresses this gap by integrating multiple AI 
 
 ## Features
 
-✅ Real-time object detection and localization  
-✅ Zero-shot object classification  
-✅ Dominant color extraction  
-✅ Geometric shape analysis  
-✅ Estimated object weight  
-✅ Audio output for accessibility  
-✅ User-friendly web interface (local or cloud deployment)  
+Real-time object detection and localization using YOLOv8
+
+Zero-shot object classification with CLIP model
+
+Dominant color extraction through KMeans clustering
+
+Geometric shape analysis using OpenCV contour detection
+
+Estimated object weight based on a predefined lookup table
+
+Audio output of object descriptions via Google Text-to-Speech (gTTS)
+
+User-friendly Gradio web interface supporting local and cloud deployment
 
 ---
 
