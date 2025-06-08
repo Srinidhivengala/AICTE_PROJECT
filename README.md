@@ -11,7 +11,7 @@
 
 ###
 
-<p align="left">Solution YOLOv8 detects and localizes objects in real time using bounding boxes.​<br>
+<p align="left">Solution:YOLOv8 detects and localizes objects in real time using bounding boxes.​<br>
 
 CLIP performs zero-shot classification to identify the object from a set of candidate labels.​
 
