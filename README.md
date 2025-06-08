@@ -64,24 +64,13 @@ The **Universal Object Analyzer** addresses this gap by integrating multiple AI 
 - **Educational tools**  
 
 ---
+## Example Output
 
-## Installation
+Here is an example of the Universal Object Analyzer in action:
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/universal-object-analyzer.git
-cd universal-object-analyzer
-
-# Create a virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-
-# Install dependencies
-pip install -r requirements.txt
+![Object Detection Example](https://raw.githubusercontent.com/Srinidhivengala/AICTE_PROJECT/main/Screenshot%202025-06-08%20115244.png)
 
 
-###
 
 <h2 align="left">I code with</h2>
 
