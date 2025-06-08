@@ -6,7 +6,8 @@
 
 ###
 
-<h2 align="left">About me</h2>
+<h2 align="left">About My Project</h2>
+<p>In many real-world scenarios, identifying objects with accurate semantic detail such as color, shape, category, and weight remains challenging for AI systems. Existing object detection systems lack multi-dimensional descriptive capabilities, making them unsuitable for visually impaired users or complex robotics applications..​</p>
 
 ###
 
