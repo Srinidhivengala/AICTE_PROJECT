@@ -1,0 +1,35 @@
+Creating new Ultralytics Settings v0.0.6 file ✅ 
+View Ultralytics Settings with 'yolo settings' or at '/root/.config/Ultralytics/settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.
+Downloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n.pt to 'yolov8n.pt'...
+100%|██████████| 6.25M/6.25M [00:00<00:00, 17.8MB/s]
+/usr/local/lib/python3.11/dist-packages/huggingface_hub/utils/_auth.py:94: UserWarning: 
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+config.json: 100%
+ 4.19k/4.19k [00:00<00:00, 246kB/s]
+pytorch_model.bin: 100%
+ 605M/605M [00:02<00:00, 246MB/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+preprocessor_config.json: 100%
+ 316/316 [00:00<00:00, 28.2kB/s]
+tokenizer_config.json: 100%
+ 592/592 [00:00<00:00, 52.8kB/s]
+vocab.json: 100%
+ 862k/862k [00:00<00:00, 1.60MB/s]
+model.safetensors: 100%
+ 605M/605M [00:02<00:00, 230MB/s]
+merges.txt: 100%
+ 525k/525k [00:00<00:00, 9.07MB/s]
+tokenizer.json: 100%
+ 2.22M/2.22M [00:00<00:00, 2.47MB/s]
+special_tokens_map.json: 100%
+ 389/389 [00:00<00:00, 9.89kB/s]
+It looks like you are running Gradio on a hosted a Jupyter notebook. For the Gradio app to work, sharing must be enabled. Automatically setting `share=True` (you can turn this off by setting `share=False` in `launch()` explicitly).
+
+Colab notebook detected. To show errors in colab notebook, set debug=True in launch()
+* Running on public URL: https://d3924dbfa435fc2aa3.gradio.live
+
