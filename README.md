@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Srinidhi and I'm a Full Stack Developer</p>
+<p align="left">My name is Srinidhi </p>
 
 ###
 
